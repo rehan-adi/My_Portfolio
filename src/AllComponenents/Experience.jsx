@@ -1,8 +1,28 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 function Experience() {
+
+    const controls1 = useAnimation();
+
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+        rootMargin: '-100px 60px',
+      });
+
+      useEffect(() => {
+        if (inView) {
+          controls1.start({ y: 0, opacity: 1, transition: { duration: 0.5, delay: 0.25 } });
+        }
+      }, [inView, controls1]);
+
+
     return (
-        <div className='h-[100vh] bg-[#111] text-white'>
+        <motion.div
+         initial={{opacity: 0, y: 75}}
+         animate={controls1}
+         ref={ref} className='h-[100vh] bg-[#111] text-white'>
             <div className='flex justify-center items-center'>
                 <h1 className='text-[56px] text-[#EBECF3] font-extrabold '>Experience<span className='text-[#0AE448] '>.</span></h1>
                 <div className='border-t  border-[#EBECF3] ml-7 opacity-40 inline-block w-[680px]'></div>
@@ -133,7 +153,7 @@ function Experience() {
             <div className='flex justify-center'>
             <div className='border-t  border-[#EBECF3] mt-6 opacity-20 inline-block w-[1020px]'></div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

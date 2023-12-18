@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-    <Particals />
+      <Particals />
       <div className="max-w-[100vw]">
         <Navbar />
         <MainSection />

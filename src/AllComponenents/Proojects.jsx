@@ -1,8 +1,29 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 function Proojects() {
+
+  const controls1 = useAnimation();
+
+  const [ref, inView] = useInView({
+      triggerOnce: true,
+      rootMargin: '-100px 60px',
+    });
+
+    useEffect(() => {
+      if (inView) {
+        controls1.start({ y: 0, opacity: 1, transition: { duration: 0.5, delay: 0.25 } });
+      }
+    }, [inView, controls1]);
+
+
   return (
-    <div className='h-[160vh] bg-[#111] text-white'>
+    <motion.div
+    initial={{opacity: 0, y: 75}}
+    animate={controls1}
+    ref={ref}
+     className='h-[160vh] bg-[#111] text-white'>
       <div className='flex justify-center items-center '>
         <div className='border-t  border-[#EBECF3] opacity-40 inline-block w-[767px]'></div>
         <h1 className='ml-7 text-[56px] font-extrabold   text-[#EBECF3]'>Projects<span className='text-[#0AE448]'>.</span></h1>
@@ -125,7 +146,7 @@ function Proojects() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
