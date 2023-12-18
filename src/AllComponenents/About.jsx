@@ -1,22 +1,31 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { BsPersonWorkspace } from "react-icons/bs";
 import { FaRegSmileBeam } from "react-icons/fa";
-import { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 function About() {
    
-    const animation = useRef(null);
+    const controls1 = useAnimation();
 
-    useEffect(() => {
-        const Gsap = gsap.timeline({ defaults: { ease: 'power4.out' } });
-        Gsap.fromTo(animation.current, { x: '-50%', opacity: 0, duration: 1 }, {x: '0%', opacity: 1, duration: 3});
-      }, []);
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+        rootMargin: '-100px 60px',
+      });
+
+      useEffect(() => {
+        if (inView) {
+          controls1.start({ y: 0, opacity: 1, transition: { duration: 0.5, delay: 0.25 } });
+        }
+      }, [inView, controls1]);
 
     return (
-        <div>
-            <div className='h-screen bg-[#111] z-90 text-white'>
-                <div ref={animation}>
+        <div  ref={ref}>
+            <motion.div 
+            initial={{opacity: 0, y: 75}}
+            animate={controls1}
+            className='h-screen bg-[#111] z-90 text-white'>
+                <div>
                     <div className='flex justify-center items-center mr-20 '>
                         <h1 className='text-[56px] text-[#EBECF3] font-extrabold ml-5 '>About<span className='text-[#0AE448] '>.</span></h1>
                         <div className='border-t  border-[#EBECF3] ml-7 opacity-40 inline-block w-[760px]'></div>
@@ -116,7 +125,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
     )
 }
