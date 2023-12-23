@@ -20,7 +20,7 @@ function About() {
       }, [inView, controls1]);
 
     return (
-        <div  ref={ref}>
+        <div id='about' ref={ref}>
             <motion.div 
             initial={{opacity: 0, y: 75}}
             animate={controls1}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLayoutEffect, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import { Link } from 'react-scroll';
 
 
 function Navbar() {
@@ -26,10 +27,18 @@ function Navbar() {
          </div>
          <div>
             <ul className='flex text-gray-400  space-x-16  '>
+              <Link to='home' spy={true} offset={0} duration={2000} smooth={true} >
               <li className='hover:text-white hover:border-b-2 cursor-pointer hover:border-[#0AE448] transition-all duration-300 group-hover:border-white group-hover:border-b-[#0AE448]'>Home</li>
+              </Link>
+              <Link to='about' spy={true} offset={0} duration={2000} smooth={true}>
               <li className='hover:text-white hover:border-b-2 cursor-pointer hover:border-[#0AE448] transition-all duration-300 group-hover:border-white group-hover:border-b-[#0AE448]'>About</li>
+              </Link>
+              <Link to='projects' spy={true} offset={0} duration={2000} smooth={true}>
               <li className='hover:text-white hover:border-b-2 cursor-pointer hover:border-[#0AE448] transition-all duration-300 group-hover:border-white group-hover:border-b-[#0AE448]'>Projects</li>
+              </Link>
+              <Link to='contact' smooth={true} spy={true} offset={0} duration={2000} >
               <li className='hover:text-white hover:border-b-2 cursor-pointer hover:border-[#0AE448] transition-all duration-300 group-hover:border-white group-hover:border-b-[#0AE448]'>Contact</li>
+              </Link>
             </ul>
          </div>
          <div className='flex space-x-4 text-sm' ref={textRefr} >

@@ -19,7 +19,7 @@ function Proojects() {
 
 
   return (
-    <motion.div
+    <motion.div id='projects'
     initial={{opacity: 0, y: 75}}
     animate={controls1}
     ref={ref}
