@@ -19,16 +19,18 @@ function Proojects() {
 
 
   return (
-    <motion.div id='projects'
-    initial={{opacity: 0, y: 75}}
-    animate={controls1}
-    ref={ref}
+    <div id='projects'
      className='h-[160vh] bg-[#111] text-white'>
-      <div className='flex justify-center items-center '>
+      <motion.div
+       initial={{opacity: 0, y: 75}}
+       animate={controls1}
+       ref={ref} 
+      >
+      <div
+      className='flex justify-center items-center '>
         <div className='border-t  border-[#EBECF3] opacity-40 inline-block w-[767px]'></div>
         <h1 className='ml-7 text-[56px] font-extrabold   text-[#EBECF3]'>Projects<span className='text-[#0AE448]'>.</span></h1>
       </div>
-
       <div className='flex space-x-20 mt-5 mb-10 justify-center'>
         <div>
           <div className='bg-[#232323] flex justify-center overflow-hidden pt-14 w-[31vw] h-[35vh]'>
@@ -146,7 +148,8 @@ function Proojects() {
           </div>
         </div>
       </div>
-    </motion.div>
+      </motion.div>
+    </div>
   )
 }
 
