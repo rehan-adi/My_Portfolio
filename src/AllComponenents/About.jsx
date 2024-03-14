@@ -97,7 +97,7 @@ function About() {
                                     C++
                                 </span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Node</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Git</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>React</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>MongoDB</span>
                             </div>
                             <div className='lg:ml-2'>

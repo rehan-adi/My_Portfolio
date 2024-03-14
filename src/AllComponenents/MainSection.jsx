@@ -12,7 +12,7 @@ function MainSection() {
          transition={{duration: 0.5, delay: 0.25}}
           className='lg:h-[100vh] h-screen lg:py-0 py-7 relative z-10 text-white flex justify-center lg:pl-0 pl-8 items-center '>
             <div  className=''>
-                <h1 className='text-[#EBECF3] font-extrabold text-4xl lg:text-8xl' >Hi, I'm Rehan<span className='text-[#0AE448]'>.</span></h1>
+                <h1 className='text-[#EBECF3] font-extrabold text-5xl lg:text-8xl' >Hi, I'm Rehan<span className='text-[#0AE448]'>.</span></h1>
                 <h2  className='lg:text-4xl text-xl mt-5'> I'm  a <span className='text-[#0AE448] font-bold lg:text-5xl text-2xl'> <TypeAnimation sequence={['Frontend Developer', 2000, ' UI/UX Designer', 2000, 'Entrepreneur', 2000]} repeat={Infinity} speed={50} /></span></h2>
                <div className='w-[80vw] lg:w-[45vw]'>
                <p className='mt-5 text-[#EBECF3] text-sm lg:text-lg font-normal' >I've spent the last 1 years building and scaling software for some pretty cool companies. I also teach people to paint online (incase you've got an empty canvas layin' around 🎨). Let's connect!</p>
