@@ -17,8 +17,8 @@ function App() {
         <MainSection />
         <About />
         <Proojects />
-        {/* <Experience />
-        <Contact /> */}
+        {/* <Experience /> */}
+        <Contact />
       </div>
 
     </>
