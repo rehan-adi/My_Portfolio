@@ -22,26 +22,26 @@ function About() {
     return (
         <div id='about'>
             <div 
-            className='h-screen bg-[#111] z-90 text-white'>
+            className='lg:h-screen max-h-fit py-10 bg-[#111]  flex justify-center items-center z-90 text-white'>
                 <motion.div
                 ref={ref}
                 initial={{opacity: 0, y: 75}}
                 animate={controls1}
                 >
                     <div
-                     className='flex justify-center items-center mr-20 '>
-                        <h1 className='text-[56px] text-[#EBECF3] font-extrabold ml-5 '>About<span className='text-[#0AE448] '>.</span></h1>
-                        <div className='border-t  border-[#EBECF3] ml-7 opacity-40 inline-block w-[760px]'></div>
+                     className='flex justify-center items-center lg:mr-20 '>
+                        <h1 className='lg:text-[56px] text-2xl text-[#EBECF3] font-extrabold lg:ml-14 '>About<span className='text-[#0AE448] '>.</span></h1>
+                        <div className='border-t border-[#EBECF3] lg:mx-0 mx-4 lg:ml-7 opacity-40 w-[65vw] inline-block lg:w-[760px]'></div>
                     </div>
-                    <div className='flex justify-center mt-10 '>
+                    <div className='flex justify-center lg:px-0 px-10 flex-col lg:flex-row mt-10 '>
                         <div>
-                            <p className='text-lg opacity-80'> <span className='py-2 px-3 text-[#0AE448]  font-bold text-2xl bg-[#232323]'>H</span> <span className='text-[#EBECF3]'> ey! I'm Rehan, if you haven't already gathered that by now. I'm a <br /> Developer turned software engineer from Kolkata, India. I specialize  in <br />the Frontend, primarily React and Tailwind, but love by building with <br /> whatever tools are right for the job. </span></p>
+                            <p className='lg:text-lg text-sm opacity-80'> <span className='py-2 px-3 text-[#0AE448]  font-bold lg:text-2xl text-lg bg-[#232323]'>H</span> <span className='text-[#EBECF3]'> ey! I'm Rehan, if you haven't already gathered that by now. I'm a <br className='lg:flex hidden'/> Developer turned software engineer from Kolkata, India. I specialize  in <br  className='lg:flex hidden'/>the Frontend, primarily React and Tailwind, but love by building with <br  className='lg:flex hidden'/> whatever tools are right for the job. </span></p>
 
-                            <p className='text-lg text-[#EBECF3] opacity-80 mt-6'>I currently work for Google on Google Pay. I also toss in my ¢2 with the  <br /> design systems teams from time to time (once an artist, always an <br /> artist, amirite?).</p>
+                            <p className='lg:text-lg text-sm text-[#EBECF3] opacity-80 mt-6'>I currently work for Google on Google Pay. I also toss in my ¢2 with the  <br  className='lg:flex hidden'/> design systems teams from time to time (once an artist, always an <br  className='lg:flex hidden'/> artist, amirite?).</p>
 
-                            <p className='text-lg text-[#EBECF3] opacity-80 mr-10 mt-6'>Outside of work, I still love to paint. Any given Sunday you'll find me <br /> scribbling some happy clouds with my son ☁️ I even teach courses <br /> online if you're looking to learn!</p>
+                            <p className='lg:text-lg text-sm text-[#EBECF3] opacity-80 mr-10 mt-6'>Outside of work, I still love to paint. Any given Sunday you'll find me <br  className='lg:flex hidden'/> scribbling some happy clouds with my son ☁️ I even teach courses <br  className='lg:flex hidden'/> online if you're looking to learn!</p>
 
-                            <p className='text-lg text-[#EBECF3] opacity-80 mt-6'>I'm passively looking for new positions where I can merge my love for <br /> code with my love for the canvas. If you think you've got an opening <br /> that I might like, let's connect 🔗</p>
+                            <p className='lg:text-lg text-sm23 text-[#EBECF3] opacity-80 mt-6'>I'm passively looking for new positions where I can merge my love for <br  className='lg:flex hidden'/> code with my love for the canvas. If you think you've got an opening <br  className='lg:flex hidden'/> that I might like, let's connect 🔗</p>
                             <div className='flex mt-6'>
                                 <h1 className='text-lg text-[#0AE448] mt-1'>My LInks <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" className='inline-block' viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 0 0 0-48.4z"></path></svg></span> </h1>
                                 <div className='flex ml-3 space-x-3'>
@@ -66,60 +66,60 @@ function About() {
                                 </div>
                             </div>
                         </div>
-                        <div className='ml-2'>
-                            <h1 className='text-[22px] ml-6 font-extrabold'> <span><BsPersonWorkspace className='inline-block mb-1 mr-3 text-[#0AE448]' /></span> Use At Work</h1>
-                            <div className='mt-5 hover:scale-105 duration-700 ml-2'>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full '>
+                        <div className='lg:ml-2 lg:mt-0 mt-12'>
+                            <h1 className='text-[22px] lg:ml-6 font-extrabold'> <span><BsPersonWorkspace className='inline-block mb-1 mr-3 text-[#0AE448]' /></span> Use At Work</h1>
+                            <div className='mt-5 hover:scale-105 duration-700 lg:ml-2'>
+                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-2 py-1 rounded-full '>
                                     JavaScript
                                 </span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>CSS</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>AWS</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>PYthon</span>
                             </div>
-                            <div className='mt-5 ml-2 hover:scale-105 duration-700 '>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full '>
-                                    C++
+                            <div className='mt-5 lg:ml-2 hover:scale-105 duration-700 '>
+                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-2 py-1 rounded-full '>
+                                    Next.Js
                                 </span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>TypeScript</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Express</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Figma</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>HTML</span>
                             </div>
-                            <div className='mt-5 ml-2 hover:scale-105 duration-700 '>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full '>
+                            <div className='mt-5 lg:ml-2 hover:scale-105 duration-700 '>
+                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-2 py-1 rounded-full '>
                                     Tailwind
                                 </span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>GitHub</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Redux</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>GSAP</span>
                             </div>
-                            <div className='mt-5 ml-2 hover:scale-105 duration-700 '>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full '>
-                                    Next Js
+                            <div className='mt-5 lg:ml-2 hover:scale-105 duration-700 '>
+                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-3 py-1 rounded-full '>
+                                    C++
                                 </span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Cloud</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Node</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Git</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>MongoDB</span>
                             </div>
-                            <div className='ml-2 '>
-                                <h1 className='text-[22px] ml-6 font-extrabold mt-10'> <FaRegSmileBeam className='inline-block mb-1 mr-3 text-[#0AE448] ' />Future Learning</h1>
+                            <div className='lg:ml-2'>
+                                <h1 className='text-[22px] lg:ml-6 font-extrabold mt-10'> <FaRegSmileBeam className='inline-block mb-1 mr-3 text-[#0AE448] ' />Future Learning</h1>
                                 <div>
-                                <div className='mt-5 ml-2 hover:scale-105 duration-700 '>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full '>
-                                    Data Science
+                                <div className='mt-5 lg:ml-2 hover:scale-105 lg:w-auto w-[90vw] duration-700 '>
+                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-2 py-1 rounded-full '>
+                                    Docker
                                 </span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>BlockChain</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>ML</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>AI</span>
                             </div>
-                            <div className='mt-5 ml-2 hover:scale-105 duration-700 '>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full '>
-                                    Framer Motion                                </span>
+                            <div className='mt-5 lg:ml-2 hover:scale-105 lg:w-auto w-[90vw]  duration-700 '>
+                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-2 py-1 rounded-full '>
+                                    Django                               </span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Solidity</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>AWS</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>NLP</span>
                             </div>
-                            <div className='mt-5 ml-2 hover:scale-105 duration-700'>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>CyberSecurity</span>
+                            <div className='mt-5 lg:ml-2 hover:scale-105 lg:w-auto w-[90vw] duration-700'>
+                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-2 py-1 rounded-full'>DevOps</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Tablue</span>
                                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'> Data Analytics</span>
                             </div>

@@ -16,8 +16,8 @@ function App() {
         <Navbar />
         <MainSection />
         <About />
-        {/* <Proojects />
-        <Experience />
+        <Proojects />
+        {/* <Experience />
         <Contact /> */}
       </div>
 
