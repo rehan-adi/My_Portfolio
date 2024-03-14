@@ -11,14 +11,14 @@ function App() {
 
   return (
     <>
-      <Particals />
+      {/* <Particals /> */}
       <div className="max-w-[100vw]">
         <Navbar />
-        <MainSection />
+        {/* <MainSection />
         <About />
         <Proojects />
         <Experience />
-        <Contact />
+        <Contact /> */}
       </div>
 
     </>
