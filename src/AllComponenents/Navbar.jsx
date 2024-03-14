@@ -75,7 +75,7 @@ function Navbar() {
               <li><Link to='projects' spy={true} offset={0} duration={2000} smooth={true}>Projects</Link></li>
               <li><Link to='contact' spy={true} offset={0} duration={2000} smooth={true}>Contact</Link></li>
             </ul>
-            <div className='text-white px-12 flex flex-col justify-center gap-5 absolute bottom-72'>
+            <div className='text-white px-12 flex flex-col justify-center gap-5 absolute bottom-56'>
                 <h1 className='tracking-widest font-medium opacity-90 text-2xl'>SAY HELLO</h1>
                 <h2 className='text-lg'>rehanalire52@gmail.com</h2>
                 <h2 className='text-lg'>@aadeel_rehan</h2>

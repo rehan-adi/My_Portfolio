@@ -14,9 +14,9 @@ function App() {
       {/* <Particals /> */}
       <div className="max-w-[100vw]">
         <Navbar />
-        {/* <MainSection />
+        <MainSection />
         <About />
-        <Proojects />
+        {/* <Proojects />
         <Experience />
         <Contact /> */}
       </div>
