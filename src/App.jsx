@@ -1,10 +1,10 @@
-import About from "./AllComponenents/About"
-import Contact from "./AllComponenents/Contact"
-import Experience from "./AllComponenents/Experience"
-import MainSection from "./AllComponenents/MainSection"
-import Navbar from "./AllComponenents/Navbar"
-import Particals from "./AllComponenents/Particals"
-import Proojects from "./AllComponenents/Proojects"
+import About from "./components/About"
+import Navbar from "./components/Navbar"
+import Contact from "./components/Contact"
+import Proojects from "./components/Proojects"
+import Particals from "./components/Particals"
+import Experience from "./components/Experience"
+import MainSection from "./components/MainSection"
 
 
 function App() {
