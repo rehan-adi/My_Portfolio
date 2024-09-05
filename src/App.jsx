@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       {/* <Particals /> */}
-      <div className="max-w-[100vw]">
+      <div className="w-full">
         <Navbar />
         <MainSection />
         <About />

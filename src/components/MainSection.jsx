@@ -9,7 +9,7 @@ function MainSection() {
             initial={{ opacity: 0, y: 75 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.25 }}
-            className='lg:h-[100vh] h-screen lg:py-0 py-7 relative z-10 text-white flex justify-center lg:pl-0 pl-8 items-center pt-12 lg:pt-0'>
+            className='lg:h-[100vh] h-screen lg:py-0 py-7 relative z-10 text-white flex justify-center lg:pl-0 pl-8 items-center pt-16 lg:pt-0'>
             <div className=''>
                 <h1 className='text-[#EBECF3] font-extrabold text-5xl lg:text-8xl' >Hi, I'm Rehan<span className='text-[#0AE448]'>.</span></h1>
                 <h2 className='lg:text-4xl text-xl mt-5'> I'm  a <span className='text-[#0AE448] font-bold lg:text-5xl text-2xl'> <TypeAnimation sequence={['Frontend Developer', 2000, ' Backend Developer', 2000, 'Full stack Developer', 2000]} repeat={Infinity} speed={50} /></span></h2>
