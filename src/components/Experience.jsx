@@ -81,7 +81,7 @@ function Experience() {
                     <div>
                         <h1 className='text-[22px] font-extrabold mt-6 '>Xanther</h1>
                         <h1 className='text-[18px] text-[#0AE448] mt-3 font-semibold '>Frontend Developer</h1>
-                        <p className='text-lg text-[#EBECF3] opacity-80 mt-3'>I help re-build the entire UI of bennit AI. A Job Portal application. Also make it responsive and user <br /> The tech stack was in PHP and MySql.</p>
+                        <p className='lg:text-lg text-base text-[#EBECF3] opacity-80 mt-3'>I help re-build the entire UI of bennit AI. A Job Portal application. Also make it responsive and user's <br  className='lg:flex hidden'/> frendly. The tech stack was in PHP and MySql.</p>
                     </div>
                     <div className='lg:flex lg:flex-col hidden'>
                         <h2 className='text-lg font-medium mt-3 opacity-90 '>Jan - Feb</h2>
@@ -96,24 +96,27 @@ function Experience() {
                             </span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>PHP</span>
+                            <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>PHP</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>AWS</span>
+                            <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>AWS</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer  duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Git</span>
+                            <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Git</span>
+                        </div>
+                        <div className='hover:scale-110 cursor-pointer duration-700'>
+                            <span className='bg-[#232323] h-2 w-2 lg:text-base text-sm ml-3 px-2 py-1 rounded-full'>GitHub</span>
                         </div>
                     </div>
                     <div className='flex'>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>GitHub</span>
+                            <span className='bg-[#232323] h-2 w-2 lg:ml-3 ml-1 lg:text-base text-sm px-2 py-1 rounded-full'>MySql</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>MySql</span>
+                            <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Bootstrap</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Bootstrap</span>
+                            <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>PHP MyAdmin</span>
                         </div>
                     </div>
                 </div>
@@ -124,7 +127,7 @@ function Experience() {
                     <div>
                         <h1 className='text-[22px] font-extrabold mt-6 '>Web Rats</h1>
                         <h1 className='text-[18px] text-[#0AE448] mt-3 font-semibold '>Fullstack Developer</h1>
-                        <p className='text-lg text-[#EBECF3] opacity-80 mt-3'>I build many scaleable application with modern tech stack. I Work with many freelancing client's and<br /> make their websites. Also helped make frendly and pretty UI.</p>
+                        <p className='lg:text-lg text-base text-[#EBECF3] opacity-80 mt-3'>I build many scaleable application with modern tech stack. I Work with many freelancing client's and<br  className='lg:flex hidden'/> make their websites. Also helped make frendly and pretty UI.</p>
                     </div>
                     <div className='lg:flex lg:flex-col hidden'>
                         <h2 className='text-lg font-medium mt-3 opacity-90 '> Present </h2>
@@ -134,32 +137,32 @@ function Experience() {
                 <div className='mt-5 flex flex-col lg:gap-0 gap-5 lg:flex-row justify-start lg:ml-56'>
                     <div className='flex'>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-1 px-2 py-1 rounded-full '>
+                            <span className='bg-[#232323] h-2 w-2 ml-1 lg:text-base text-sm px-2 py-1 rounded-full '>
                                 React
                             </span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Node</span>
+                            <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Node</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Express</span>
+                            <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Express</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Tailwind</span>
+                            <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Tailwind</span>
                         </div>
                     </div>
                     <div className='flex'>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Next.Js</span>
+                            <span className='bg-[#232323] h-2 w-2 lg:ml-3 lg:text-base text-sm ml-1 px-2 py-1 rounded-full'>Next.Js</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Typescript</span>
+                            <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Typescript</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>prisma</span>
+                            <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>prisma</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700 '>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Docker</span>
+                            <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Docker</span>
                         </div>
                     </div>
                 </div>
