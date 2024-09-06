@@ -27,7 +27,7 @@ function Proojects() {
         ref={ref}
       >
         <div
-          className='flex justify-center mb-14 px-6 lg:px-0 items-center '>
+          className='flex justify-center lg:mb-14 px-6 lg:px-0 items-center '>
           <div className='border-t  border-[#EBECF3] opacity-40 inline-block w-[65vw] lg:w-[767px]'></div>
           <h1 className='ml-7 text-2xl lg:text-[56px] font-extrabold  text-[#EBECF3]'>Projects<span className='text-[#0AE448]'>.</span></h1>
         </div>
@@ -55,7 +55,7 @@ function Proojects() {
               <p className='text-[#0AE448] text-sm'>Next Js - Tailwind CSS - ShadCN - Typescript - zod - prisma</p>
             </div>
             <div className='flex mt-3 items-center'>
-              <p className='text-lg text-[#EBECF3] opacity-80'>
+              <p className='lg:text-lg text-base text-[#EBECF3] opacity-80'>
                 This is a messaging app that includes authentication
                 <br className='lg:flex hidden' />
                 It is built with modern technologies and optimized  <br /> for user experience.
@@ -89,7 +89,7 @@ function Proojects() {
                   <h1 className='text-[#0AE448] text-base'>HTML - Tailwind CSS  - Framer Motion - React</h1>
                 </div>
                 <div className='flex mt-3 items-center'>
-                  <p className='text-lg text-[#EBECF3] opacity-80  '>A real-time coaching app for students learning to <br className='lg:flex hidden' /> paint. This app is my baby, designed and built on <br className='lg:flex hidden' /> my own 🌈</p>
+                  <p className='lg:text-lg text-base text-[#EBECF3] opacity-80  '>A real-time coaching app for students learning to <br className='lg:flex hidden' /> paint. This app is my baby, designed and built on <br className='lg:flex hidden' /> my own 🌈</p>
                 </div>
               </div>
             </div>
@@ -120,7 +120,7 @@ function Proojects() {
                 <h1 className='text-[#0AE448] text-sm'>React - Tailwind - Typescript - ShadCN - React-hook-form - zod</h1>
               </div>
               <div className='flex mt-3 items-center'>
-                <p className='text-lg text-[#EBECF3] opacity-80  '>This is a Job Portal application. Job Seeker can look <br className='lg:flex hidden' /> for job and employer can post Job Listings. With<br className='lg:flex hidden' /> production grade code.</p>
+                <p className='lg:text-lg text-base text-[#EBECF3] opacity-80  '>This is a Job Portal application. Job Seeker can look <br className='lg:flex hidden' /> for job and employer can post Job Listings. With<br className='lg:flex hidden' /> production grade code.</p>
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@ function Proojects() {
                 <h1 className='text-[#0AE448] text-sm'>React - Tailwind - Javascript - react-router-dom</h1>
               </div>
               <div className='flex mt-3 items-center'>
-                <p className='text-lg text-[#EBECF3] opacity-80  '>This is a Blog Application, The UI is similler to X. This<br className='lg:flex hidden' />app have role based authentication and many<br className='lg:flex hidden' /> things.</p>
+                <p className='lg:text-lg text-basetext-[#EBECF3] opacity-80  '>This is a Blog Application, The UI is similler to X. This<br className='lg:flex hidden' />app have role based authentication and many<br className='lg:flex hidden' /> things.</p>
               </div>
             </div>
           </div>

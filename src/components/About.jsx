@@ -30,7 +30,7 @@ function About() {
                 >
                     <div
                      className='flex justify-center items-center lg:mr-20 '>
-                        <h1 className='lg:text-[56px] text-2xl text-[#EBECF3] font-extrabold lg:ml-14 '>About<span className='text-[#0AE448] '>.</span></h1>
+                        <h1 className='lg:text-[56px] text-2xl text-[#EBECF3] font-extrabold ml-5 lg:ml-10 '>About<span className='text-[#0AE448] '>.</span></h1>
                         <div className='border-t border-[#EBECF3] lg:mx-0 mx-4 lg:ml-7 opacity-40 w-[65vw] inline-block lg:w-[760px]'></div>
                     </div>
                     <div className='flex justify-center lg:px-0 px-10 flex-col lg:flex-row mt-10 '>
