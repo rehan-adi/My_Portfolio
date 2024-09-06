@@ -120,7 +120,7 @@ function Proojects() {
                 <h1 className='text-[#0AE448] text-sm'>React - Tailwind - Typescript - ShadCN - React-hook-form - zod</h1>
               </div>
               <div className='flex mt-3 items-center'>
-                <p className='text-lg text-[#EBECF3] opacity-80  '>This is Clone of Space-X website its a Rocket launch <br className='lg:flex hidden' /> company. This  is made by  Elon Musk and <br className='lg:flex hidden' />  built by his team.</p>
+                <p className='text-lg text-[#EBECF3] opacity-80  '>This is a Job Portal application. Job Seeker can look <br className='lg:flex hidden' /> for job and employer can post Job Listings. With<br className='lg:flex hidden' /> production grade code.</p>
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@ function Proojects() {
                 <h1 className='text-[#0AE448] text-sm'>React - Tailwind - Javascript - react-router-dom</h1>
               </div>
               <div className='flex mt-3 items-center'>
-                <p className='text-lg text-[#EBECF3] opacity-80  '>A real-time coaching app for students learning to <br className='lg:flex hidden' /> paint. This app is my baby, designed and built on <br className='lg:flex hidden' /> my own</p>
+                <p className='text-lg text-[#EBECF3] opacity-80  '>This is a Blog Application, The UI is similler to X. This<br className='lg:flex hidden' />app have role based authentication and many<br className='lg:flex hidden' /> things.</p>
               </div>
             </div>
           </div>
