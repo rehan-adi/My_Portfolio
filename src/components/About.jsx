@@ -35,11 +35,11 @@ function About() {
                     </div>
                     <div className='flex justify-center lg:px-0 px-10 flex-col lg:flex-row mt-10 '>
                         <div>
-                            <p className='lg:text-lg text-base opacity-80'> <span className='py-2 px-3 text-[#0AE448]  font-bold lg:text-2xl text-lg bg-[#232323]'>H</span> <span className='text-[#EBECF3]'> ey! I'm Rehan, if you haven't already gathered that by now. I'm a <br className='lg:flex hidden'/> Full stack Developer from Kolkata, India. I specialize  in the Frontend, <br  className='lg:flex hidden'/> primarily Next Js and Tailwind, but love by building with whatever <br  className='lg:flex hidden'/> tools  are right for the job. </span></p>
+                            <p className='lg:text-lg text-base opacity-80'> <span className='py-2 px-3 text-[#0AE448]  font-bold lg:text-2xl text-lg bg-[#232323]'>H</span> <span className='text-[#EBECF3]'> ey! I'm Rehan, if you haven't already gathered that by now. I'm a <br className='lg:flex hidden'/> Full stack Developer from Kolkata, India. I specialize  in the Backend, <br  className='lg:flex hidden'/> primarily Express, Node and Prisma, but love by building with whatever <br  className='lg:flex hidden'/> tools are right for the job. </span></p>
 
-                            <p className='lg:text-lg text-base text-[#EBECF3] opacity-80 mt-6'>I currently work as an Full stack developer in Web Rats. It's a <br  className='lg:flex hidden'/> freelancing company. We make websites for US clients and Indian <br  className='lg:flex hidden'/> also</p>
+                            <p className='lg:text-lg text-base text-[#EBECF3] opacity-80 mt-6'>I currently work as an Full stack developer in Web Rats. It's a <br  className='lg:flex hidden'/> freelancing company. We make websites for US clients and Indian <br  className='lg:flex hidden'/> also.</p>
 
-                            <p className='lg:text-lg text-base text-[#EBECF3] opacity-80 mr-10 mt-6'>Outside of work, I still love to learn new and modern technology's.<br  className='lg:flex hidden'/> Currently i am learning advanced backend and make my projects<br  className='lg:flex hidden'/> online if you're looking to learn from me!</p>
+                            <p className='lg:text-lg text-base text-[#EBECF3] opacity-80 mr-10 mt-6'>Outside of work, I still love to learn new and modern technology's.<br  className='lg:flex hidden'/> Currently i am learning advanced backend and make my projects.<br  className='lg:flex hidden'/> online if you're looking to learn from me!</p>
 
                             <p className='lg:text-lg text-base text-[#EBECF3] opacity-80 mt-6'>I'm passively looking for new positions and opportunites for work.<br  className='lg:flex hidden'/> Also i am very active on Twitter, Linkedin and GitHub you can <br  className='lg:flex hidden'/>check there. let's connect 🔗</p>
                             <div className='flex mt-6'>
@@ -69,58 +69,58 @@ function About() {
                         <div className='lg:ml-2 lg:mt-0 mt-12'>
                             <h1 className='text-[22px] lg:ml-6 font-extrabold'> <span><BsPersonWorkspace className='inline-block mb-1 mr-3 text-[#0AE448]' /></span> Use At Work</h1>
                             <div className='mt-5 hover:scale-105 duration-700 lg:ml-2'>
-                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-2 py-1 rounded-full '>
-                                    JavaScript
+                                <span className='bg-[#232323] h-2 w-2 lg:ml-3  lg:text-base text-sm px-2 py-1 rounded-full '>
+                                    Typescript
                                 </span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>CSS</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Node</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Typescript</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3  lg:text-base text-sm px-2 py-1 rounded-full'>CSS</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3  lg:text-base text-sm px-2 py-1 rounded-full'>Node</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3  lg:text-base text-sm px-2 py-1 rounded-full'>JavaScript</span>
                             </div>
                             <div className='mt-5 lg:ml-2 hover:scale-105 duration-700 '>
                                 <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-2 py-1 rounded-full '>
                                     Next Js
                                 </span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Express Js</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Figma</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Prisma</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Express Js</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Figma</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Prisma</span>
                             </div>
                             <div className='mt-5 lg:ml-2 hover:scale-105 duration-700 '>
                                 <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-2 py-1 rounded-full '>
                                     Tailwind
                                 </span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>GitHub</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>ShadCN</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Postgres</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>GitHub</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>ShadCN</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Postgres</span>
                             </div>
                             <div className='mt-5 lg:ml-2 hover:scale-105 duration-700 '>
                                 <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-3 py-1 rounded-full '>
                                     mongoose
                                 </span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Node</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>React</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Docker</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Node</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>React</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Docker</span>
                             </div>
                             <div className='lg:ml-2'>
                                 <h1 className='text-[22px] lg:ml-6 font-extrabold mt-10'> <FaRegSmileBeam className='inline-block mb-1 mr-3 text-[#0AE448] ' />Future Learning</h1>
                                 <div>
                                 <div className='mt-5 lg:ml-2 hover:scale-105 lg:w-auto w-[90vw] duration-700 '>
-                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-2 py-1 rounded-full '>
+                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 lg:text-base text-sm px-2 py-1 rounded-full '>
                                 Kubernetes
                                 </span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>BlockChain</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Flask</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Block Chain</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Flask</span>
                             </div>
                             <div className='mt-5 lg:ml-2 hover:scale-105 lg:w-auto w-[90vw]  duration-700 '>
-                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-2 py-1 rounded-full '>
+                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 lg:text-base text-sm px-2 py-1 rounded-full '>
                                     Django                               </span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Solidity</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>AWS</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Rust</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Solidity</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>AWS</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Rust</span>
                             </div>
                             <div className='mt-5 lg:ml-2 hover:scale-105 lg:w-auto w-[90vw] duration-700'>
-                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 px-2 py-1 rounded-full'>DevOps</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Golang</span>
-                                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'> Data Analytics</span>
+                                <span className='bg-[#232323] h-2 w-2 lg:ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>DevOps</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Golang</span>
+                                <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>LangChain</span>
                             </div>
                                 </div>
                             </div>
