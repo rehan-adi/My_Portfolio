@@ -115,9 +115,6 @@ function Experience() {
                         <div className='hover:scale-110 cursor-pointer duration-700'>
                             <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Bootstrap</span>
                         </div>
-                        <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>PHP Myadmin</span>
-                        </div>
                     </div>
                 </div>
                 <div className='flex justify-center'>
@@ -153,16 +150,13 @@ function Experience() {
                     </div>
                     <div className='flex'>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Next Js</span>
+                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Next.Js</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
                             <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Typescript</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
                             <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>prisma</span>
-                        </div>
-                        <div className='hover:scale-110 cursor-pointer duration-700 '>
-                            <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>MongoDb</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700 '>
                             <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Docker</span>
