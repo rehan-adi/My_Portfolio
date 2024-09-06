@@ -91,7 +91,7 @@ function Experience() {
                 <div className='mt-5 flex flex-col lg:flex-row lg:gap-0 gap-5 justify-start lg:ml-56'>
                     <div className='flex'>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-1 px-2 py-1 rounded-full '>
+                            <span className='bg-[#232323] h-2 w-2 lg:ml-1 ml-0 px-2 py-1 rounded-full '>
                                 React
                             </span>
                         </div>
@@ -110,7 +110,7 @@ function Experience() {
                     </div>
                     <div className='flex'>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 lg:ml-3 ml-1 lg:text-base text-sm px-2 py-1 rounded-full'>MySql</span>
+                            <span className='bg-[#232323] h-2 w-2 lg:ml-3 ml-0 lg:text-base text-sm px-2 py-1 rounded-full'>MySql</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
                             <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Bootstrap</span>
@@ -137,7 +137,7 @@ function Experience() {
                 <div className='mt-5 flex flex-col lg:gap-0 gap-5 lg:flex-row justify-start lg:ml-56'>
                     <div className='flex'>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 ml-1 lg:text-base text-sm px-2 py-1 rounded-full '>
+                            <span className='bg-[#232323] h-2 w-2 lg:ml-1 ml-0 lg:text-base text-sm px-2 py-1 rounded-full '>
                                 React
                             </span>
                         </div>
@@ -153,7 +153,7 @@ function Experience() {
                     </div>
                     <div className='flex'>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
-                            <span className='bg-[#232323] h-2 w-2 lg:ml-3 lg:text-base text-sm ml-1 px-2 py-1 rounded-full'>Next.Js</span>
+                            <span className='bg-[#232323] h-2 w-2 lg:ml-3 ml-0 lg:text-base text-sm px-2 py-1 rounded-full'>Next Js</span>
                         </div>
                         <div className='hover:scale-110 cursor-pointer duration-700'>
                             <span className='bg-[#232323] h-2 w-2 ml-3 lg:text-base text-sm px-2 py-1 rounded-full'>Typescript</span>
