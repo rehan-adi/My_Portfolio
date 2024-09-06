@@ -19,7 +19,7 @@ function Experience() {
 
 
     return (
-        <div className='lg:h-[100vh] max-h-fit px-6 py-16 bg-[#111] text-white'>
+        <div className='min-h-screen px-6 py-10 bg-[#111] text-white'>
             <motion.div
              initial={{opacity: 0, y: 75}}
              animate={controls1}
@@ -125,7 +125,7 @@ function Experience() {
                 <div>
                     <h1 className='text-[22px] font-extrabold mt-6 '>Web Rats</h1>
                     <h1 className='text-[18px] text-[#0AE448] mt-3 font-semibold '>Fullstack Developer</h1>
-                    <p className='text-lg text-[#EBECF3] opacity-80 mt-3'>I help build and scale Google Photos. Increased throughput of our primary services by 70%. Migrated <br /> backend service from Java to Go. Also helped make it look prettier.</p>
+                    <p className='text-lg text-[#EBECF3] opacity-80 mt-3'>I build many scaleable application with modern tech stack. I Work with many freelancing client's and<br /> make their websites. Also helped make frendly and pretty UI.</p>
                 </div>
                 <div className='lg:flex lg:flex-col hidden'>
                     <h2 className='text-lg font-medium mt-3 opacity-90 '> Present </h2>
@@ -146,18 +146,24 @@ function Experience() {
                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Express</span>
                 </div>
                 <div className='hover:scale-110 cursor-pointer duration-700'>
-                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>CSS</span>
+                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Tailwind</span>
                 </div>
                </div>
                 <div className='flex'>
                 <div className='hover:scale-110 cursor-pointer duration-700'>
-                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Next.Js</span>
+                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Next Js</span>
                 </div>
                 <div className='hover:scale-110 cursor-pointer duration-700'>
-                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Tailwind</span>
+                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Typescript</span>
+                </div>
+                <div className='hover:scale-110 cursor-pointer duration-700'>
+                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>prisma</span>
                 </div>
                 <div className='hover:scale-110 cursor-pointer duration-700 '>
                 <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>MongoDb</span>
+                </div>
+                <div className='hover:scale-110 cursor-pointer duration-700 '>
+                <span className='bg-[#232323] h-2 w-2 ml-3 px-2 py-1 rounded-full'>Docker</span>
                 </div>
                 </div>
             </div>
